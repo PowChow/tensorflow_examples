@@ -4,7 +4,7 @@ cd ~
 wget http://repo.continuum.io/archive/Anaconda2-4.1.1-Linux-x86_64.sh
 bash Anaconda2-4.1.1-Linux-x86_64.sh -b
 echo 'PATH="/home/ubuntu/anaconda2/bin:$PATH"' >> .bashrc
-source $HOME/.bashrc/
+source ~/.bashrc/
 
 sudo apt-get install -y update
 sudo apt-get install -y upgrade
