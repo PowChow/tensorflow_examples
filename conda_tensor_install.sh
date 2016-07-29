@@ -12,7 +12,7 @@ sudo apt-get install -y upgrade
 sudo apt-get install -y dist-upgrade
 sudo apt-get install -y autoremove
 sudo apt-get install easy_install
-sudo apt-get git
+sudo apt-get install git
 
 conda create -n tensorflow python=2.7 
 source activate tensorflow
