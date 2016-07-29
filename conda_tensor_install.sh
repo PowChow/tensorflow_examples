@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Still work in progress. Use the step for install.
+# Still work in progress. Use the steps for install.
 
 cd ~
 wget http://repo.continuum.io/archive/Anaconda2-4.1.1-Linux-x86_64.sh
