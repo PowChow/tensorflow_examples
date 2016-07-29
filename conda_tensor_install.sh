@@ -11,7 +11,8 @@ sudo apt-get install -y update
 sudo apt-get install -y upgrade
 sudo apt-get install -y dist-upgrade
 sudo apt-get install -y autoremove
-sudo apt-get install easy_install
+sudo apt-get install python-setuptools
+#sudo apt-get install easy_install
 sudo apt-get install git
 
 conda create -n tensorflow python=2.7 
@@ -21,4 +22,6 @@ sudo apt-get install libsm6 libxrender1 libfontconfig1
 conda install matplotlib
 export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.9.0-cp27-none-linux_x86_64.whl
 pip install --upgrade $TF_BINARY_URL
+conda install -c https://conda.anaconda.org/jjhelmus tensorflow
+
 
